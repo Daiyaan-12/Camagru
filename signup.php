@@ -37,11 +37,11 @@
                             <br>
                         <input style="height:40px; width:150px" type="text" name="mail" placeholder="E-mail">
                             <br>
-                        <input style="height:40px; width:150px" type="password" name="pwd" placeholder="Password">
+                        <input style="height:40px; width:150px" type="password" name="pwd" placeholder="Password" minlength="8">
                             <br>
                         <input style="height:40px; width:150px" type="password" name="pwd-repeat" placeholder="Confirm password">
                             <br>
-                        <a href="index.php"><button border-radius:"10px" style="height:40px; width:150px" type="submit" name="signup-submit">Signup</button></a>
+                        <button border-radius:"10px" style="height:40px; width:150px" type="submit" name="signup-submit">Signup</button>
                     </form>
                 </div>
                 <a href="header.php"><button style="height:20px; width:75px">Home</button></a>

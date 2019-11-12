@@ -13,6 +13,8 @@
     <main>
         <h1 style="color:white" align="center"> Camera</h1>
         <h2 style="color:white" align="center">Take a snapshot!</h2> 
+        <br>
+        <h3 style="color:white" align="left">Where would you like to go?</h3>
 
         <ul>
             <li><a href="home.php">Home</a></li>
