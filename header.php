@@ -20,7 +20,7 @@
                 </div>
             </header>
             <div class="form">
-                <form action="includes/login.inc.php" method="post">
+            <form action="includes/login.inc.php" method="post">
                 <input style="height:40px; width:150px" type="text" name="mailuid" placeholder="email">
                 <br>
                 <input style="height:40px; width:150px" type="password" name="pwd" placeholder="Password">

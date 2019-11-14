@@ -1,3 +1,9 @@
+<?php session_start(); ?>
+
+<?php
+if ($_SESSION['username'])
+{?>
+
 <html>
     <head>
         <title>Index</title>
@@ -20,7 +26,16 @@
             <li><a href="#">Profiles</a></li>
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="camera.php">Camera</a></li>
-            <a href="header.php"><button style="height:20px; width:75px">Logout</button></a>
+            <form action="includes/login.inc.php" method="POST">
+           <button style="height:20px; width:75px" name="logout-submit">Logout</button>
+            </form>
                 </ul>
         </main>
 </html>
+<?php
+}
+else
+{
+    echo "You are not logged in";
+}
+?>

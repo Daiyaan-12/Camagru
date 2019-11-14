@@ -74,7 +74,7 @@ else if ($password !== $passwordrepeat) {
 
             $verificationCode = md5(uniqid("2a1d4g5h9j2g6g9j3", true));
             $verificationLink = "http://localhost:8080/Camagru/includes/activate.php?code=" . $verificationCode;
-            $msg = "body
+            $msg = "Click the following link to verify your account
             " . $verificationLink . "
             kind regards";
             $subject="email verification";
